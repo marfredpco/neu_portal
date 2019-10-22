@@ -8,7 +8,7 @@ body {
 .card {
     position: fixed;
     width: 320px;
-    height: 480px;
+    height: 450px;
     left: 50%;
     right: 50%;
     /* top: 50%; */
@@ -19,6 +19,7 @@ body {
     padding-top: inherit;
     max-width: 100px;
     max-height: 100px;
+    
 }
 
 .neu-title {
@@ -32,12 +33,18 @@ body {
 }
 
 .portal-header {
-    line-height: 1;
+    line-height: 0.1;
+    padding-top: 15px;
 }
 
 .portal-description {
     font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
     font-size: 14px;
+}
+
+.input-group {
+    padding-top: 15px;
 }
 
 .input-field input[type=text], .input-field input[type=password] {
